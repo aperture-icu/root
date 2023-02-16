@@ -1,0 +1,3 @@
+[submodule "icon"]
+	path = icon
+	url = git@github.com:aperture-icu/icon.git

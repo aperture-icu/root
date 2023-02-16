@@ -1,0 +1,62 @@
+html {
+  background: #eee;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  background: #fff;
+  border-top: 2px solid #696;
+  margin: 20px auto;
+  padding: 20px;
+  width: 696px;
+  color: #111;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+h1,
+h2 {
+  margin: 0;
+  color: #1a1a1a;
+}
+
+h2 {
+  padding-bottom: 2px;
+  border-bottom: 2px solid #696;
+}
+
+a {
+  color: #696;
+}
+
+body::after {
+  display: block;
+  content: "aperture.icu © 2023";
+  text-align: center;
+  padding: 4px;
+  background: #696;
+  color: #fff;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    background: #1a1a1a;
+  }
+
+  body {
+    background: #222;
+    color: #eee;
+  }
+
+  h1,
+  h2 {
+    color: #fff;
+  }
+
+  body::after {
+    color: #111;
+  }
+}
