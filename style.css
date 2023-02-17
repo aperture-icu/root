@@ -4,6 +4,7 @@ html {
 }
 
 body {
+  box-sizing: border-box;
   background: #fff;
   border-top: 2px solid #696;
   margin: 20px auto;
@@ -58,5 +59,19 @@ body::after {
 
   body::after {
     color: #111;
+  }
+}
+
+@media (max-width: 785px) {
+  img {
+    width: 128px;
+    height: 128px;
+  }
+
+  body {
+    width: auto;
+    border: none;
+    margin: 0;
+    background: transparent;
   }
 }
